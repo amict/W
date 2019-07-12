@@ -9,6 +9,7 @@ node {
    }
    stage('Deploy') {
    sh "cat README.md"
+   sh "cat Jenkinsfile"
    echo "Done!"
 pwd()    
    }
