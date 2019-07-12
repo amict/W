@@ -8,9 +8,9 @@ node {
     sh "ls -la"   
    }
    stage('Deploy') {
+   sh "pwd"
    sh "cat README.md"
    sh "cat Jenkinsfile"
-   echo "Done!"
-pwd()    
+   echo "Done!"    
    }
 }
